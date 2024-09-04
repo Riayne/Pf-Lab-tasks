@@ -1,0 +1,32 @@
+#Create an algorithm that asks the user for a day number (1-365) and outputs the
+corresponding day of the week, assuming that January 1st is a Monday.#
+
+START
+PRINT"Enter a day number between 1 and 365 inclusive"
+INPUT dayNum
+
+IF dayNum >= 1 AND dayNum <= 365 THEN
+  temp = dayNum - 1
+  IF temp > 6 THEN
+    rem = temp % 7
+  ENDIF
+  rem = temp
+  IF rem = 0 THEN
+    PRINT "Monday"
+  ELSEIF rem = 1 THEN
+    PRINT "Tuesday"
+  ELSEIF rem = 2 THEN
+    PRINT"WEDNESDAY"
+  ELSEIF rem = 3 THEN
+    PRINT "Thursday"
+  ELSEIF rem = 4 THEN
+    PRINT "Friday"
+  ELSEIF rem = 5 THEN
+    PRINT "Saturday"
+  ELSEIF rem = 6 THEN
+    PRINT "Sunday"
+  ENDIF
+ELSE
+  PRINT "Invalid day number"
+ENDIF
+END
