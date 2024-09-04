@@ -2,4 +2,24 @@
 iterate through possible divisors and determine if the number has any divisors other than 1
 and itself.#
 
-
+START
+SET n to 0
+SET rem to 0
+INPUT num
+IF num <= 1 THEN
+  PRINT "Not a prime number"
+ELSE
+  N = num
+  FOR n to 1
+    rem = num % n
+    IF rem = 0
+      count = count + 1
+    ENDIF
+  NEXT
+  IF count > 2
+    PRINT "Not a prime number"
+  ELSE
+    PRINT "Prime Number
+  ENDIF
+ENDIF
+END
