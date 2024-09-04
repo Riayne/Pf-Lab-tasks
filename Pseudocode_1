@@ -1,3 +1,6 @@
+# Write pseudocode to find the smallest number among three given variables. Implement a
+decision-making structure to compare the variables.#
+
 INPUT num1
 INPUT num2
 INPUT num3
