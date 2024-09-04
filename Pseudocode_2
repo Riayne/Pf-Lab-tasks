@@ -1,0 +1,14 @@
+#Create pseudocode to subtract two numbers without using the - operator. (Hint: Use addition
+and complement techniques.)#
+
+START
+INPUT num1
+INPUT num2
+Binary(num1) 
+Binary(num2)
+onescomplement(num1)
+onescomplement(num2)
+twoscomplement(num1)
+twoscomplement(num2)
+ans = num1 + num2
+END
