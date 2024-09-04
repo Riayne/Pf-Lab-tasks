@@ -1,0 +1,25 @@
+#Develop pseudocode for a basic calculator that performs multiplication and division. The
+pseudocode should prompt the user for two numbers and an operator, then display the result
+of the operation.#
+
+START
+PRINT"Enter first number"
+INPUT num1
+PRINT"Enter second number"
+INPUT num2
+PRINT"Enter operator to be used"
+INPUT operator
+ans = 0
+IF operator = "+" THEN
+  ans = num1 + num2
+ElSEIF operator = "-" THEN
+  ans = num1 - num2
+ELSEIF operator = "*" THEN
+  ans = num1 * num2
+ELSEIF operator = "/" THEN
+  ans = num1 / num2
+ELSE 
+  PRINT "WRONG OPERATOR"
+ENDIF
+PRINT " The result is ",ans
+END
